@@ -1,18 +1,20 @@
 body{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .main{
     position: relative;
     background-size: cover;
-    background-image: url("./images/bg5.jfif");
-    height: 800px;
+    background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFkZWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    height: 681px;
     background-position: center;
     background-repeat: no-repeat;   
 }
 #statement{
-    color: white;
+    color: black;
     font-size: larger;
-    border: .1rem solid white;
+    border: .1rem solid black;
     display: none;
     height: 2rem;
     width: 15rem;
@@ -25,7 +27,7 @@ body{
 }
 #header{
     font-size: xx-large;
-    color: white;
+    color: black;
     padding: 5rem 5rem;
     padding-bottom: 5rem;
     
@@ -39,12 +41,12 @@ body{
 #ply1{
     display: inline;
     margin-right: 13%;
-    color: white;
+    color: black;
     font-size: x-large;
 }
 #ply2{
     font-size: x-large;
-    color: white;
+    color: black;
 }
 #btn{
     display: block;
